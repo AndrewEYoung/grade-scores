@@ -1,0 +1,23 @@
+﻿----------------------
+Command Line Arguments
+----------------------
+
+grade-scores takes a single file as input
+
+Example: grade-scores C:\input.txt
+
+The file contains students with a single student on each line, each student 
+contains a first name, last name, and grade (as whole number).
+
+grade-scores returns a single file
+
+Example: C:\input-graded.txt
+
+The file contains the students, sorted by grade, last name, then first name. 
+There is one student per line.
+
+--------
+Building
+--------
+
+grade-scores requires NSubstitute for testing.  This is pulled from NuGet.
